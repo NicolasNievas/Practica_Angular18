@@ -1,9 +1,10 @@
+import { CommonModule, NgClass } from '@angular/common';
 import { Component, Input, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-game-result',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './game-result.component.html',
   styleUrl: './game-result.component.css'
 })
