@@ -1,2 +1,5 @@
-<app-number-input (guessMade)="onGuessMade($event)"></app-number-input>
-<app-game-result [guess]="guess" [numberToGuess]="numberToGuess"></app-game-result>
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Guessing Game</h1>
+  <app-number-input (guessMade)="onGuessMade($event)"></app-number-input>
+  <app-game-result [guess]="guess" [numberToGuess]="numberToGuess"></app-game-result>
+</div>
