@@ -1,1 +1,10 @@
-<p>number-input works!</p>
+<div>
+    <input type="number" [(ngModel)]="guess" >
+    <button (click)="onCheck()">Check</button>
+</div>
+
+<!-- <div>
+    <input type="number" [(ngModel)]="guess" (change)="onNumberChange()">
+    <button (click)="onCheck()">Check</button>
+    <div *ngIf="message">{{ message }}</div>
+</div> -->
